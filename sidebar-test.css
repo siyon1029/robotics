@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: rgb(224, 242, 225);
+}
+
+.header {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 50px;
+    background-color: rgb(138, 213, 142);
+    position: fixed;
+}
+
+.header img {
+    margin: 7px;
+    width: 34px;
+    background-color: rgb(138, 213, 142);
+    position: relative;
+}
+
+
+
+
+.close-sidebar img {
+    width: 34px;
+    margin: 7px;
+    position: relative;
+
+}
+
+
+
+table {
+    margin-top: 20px;
+}
+
+.table:not(target) {
+    display: inline-block;
+    transition: .9s;
+    height: 100%;
+    margin-left: -10.43vw;
+    overflow: hidden;
+}
+
+.table:target {
+    margin-left: 0vw;
+}
+
+
+.main p {
+    margin: 10px;
+}
+
+
+
+.sidebar {
+    background-color: azure;
+    border-right: 1px solid rgb(142, 224, 146);
+}
+
+.home a, .About-us a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 10vw;
+    font-size: 28px;
+    border-bottom: 1px solid rgb(77, 148, 81);
+}
+.home a:hover, .About-us a:hover {
+    background-color: rgb(142, 224, 146);
+}
